@@ -7,7 +7,7 @@ $(document).ready(function(){
     dots: true,
     asNavFor:".slider-offer-img",
     autoplay:true,
-    autoplaySpeed:8000
+    autoplaySpeed:30000
   });
 
   $('.slider-offer-img').slick({
