@@ -145,7 +145,7 @@ $.validator.addMethod("regex", function(value, element, regexp) {
 );
 
 
-$('#form').validate({
+$('#form-modal').validate({
   rules : {
     name : {
       required : true,
