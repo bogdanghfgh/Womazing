@@ -219,6 +219,10 @@ $('#form').validate({
     },
 
     flat : {
+      required : true,
+    },
+    
+    coupon : {
       required : true
     }
   },
@@ -253,8 +257,12 @@ $('#form').validate({
     },
 
     flat : {
-      required : "Пожалуйста введите номер квартире"
+      required : "Пожалуйста введите номер квартире",
     }
-  }
+  },
+  
+    coupon : {
+      required : "Введите купон"
+    }
 
 })
