@@ -196,6 +196,63 @@ $('#form-modal').validate({
     },
 
     tel : {
+      required : "Пожалуйста введите свой номер телефона"
+    }
+  }
+
+})
+
+$('#form').validate({
+  rules : {
+    name : {
+      required : true,
+      regex : "[A-Za-z]{1,32}"
+    },
+
+    email : {
+      required : true,
+      email : true
+    },
+
+    tel : {
+      required : true,
+      digits : true,
+      minlength: 10,
+      maxlength: 11,
+      regex: "[0-9]+"
+    },
+
+    country : {
+      required : true,
+    },
+
+    city : {
+      required : true,
+    },
+
+    street : {
+      required : true,
+    },
+
+    house : {
+      required : true,
+    },
+
+    flat : {
+      required : true
+    }
+  },
+
+  messages : {
+    name : {
+      required : "Пожалуйста введите свое имя",
+    },
+
+    email : {
+      required : "Пожалуйста введите свой E-mail",
+    },
+
+    tel : {
       required : "Пожалуйста введите свой номер телефона",
     },
 
