@@ -263,6 +263,6 @@ $('#form').validate({
     coupon : {
       required : "Введите купон"
     }
-  },
+  }
 
 })
