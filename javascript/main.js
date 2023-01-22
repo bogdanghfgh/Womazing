@@ -163,26 +163,6 @@ $('#form-modal').validate({
       minlength: 10,
       maxlength: 11,
       regex: "[0-9]+"
-    },
-
-    country : {
-      required : true,
-    },
-
-    city : {
-      required : true,
-    },
-
-    street : {
-      required : true,
-    },
-
-    house : {
-      required : true,
-    },
-
-    flat : {
-      required : true
     }
   },
 
